@@ -123,4 +123,118 @@ a {
     min-height: 898px;
     width: 100%;
     background-image: url(./assets/soldier-hero.png);
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+.hero-container { 
+    display: flex;
+    gap: 300px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.hero-main-page {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-main-text {
+    color: rgba(250, 250, 250, 1);
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: -3%;
+}
+
+.hero-text {
+    color: rgba(250, 250, 250, 1);
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -3%;
+}
+
+.hero-main-button-container {
+    margin-top: 60px;
+}
+
+.hero-main-button {
+    height: 71px;
+    width: 274px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(212, 93, 8, 1);
+    border: none;
+
+    font-size: 20px;
+    color: rgba(250, 250, 250, 1);
+    font-weight: 600;
+
+    padding-top: 3px;
+
+    cursor: pointer;
+}
+
+.non-visible {
+    font-size: 100px;
+    margin-left: 220px;
+    
+    visibility: hidden;
+}
+
+.hero-bottom-container {
+    display: flex;
+    gap: 20px;
+    margin-left: 600px;
+}
+
+.hero-bottom-button {
+    height: 71px;
+    width: 274px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(212, 93, 8, 1);
+    border: none;
+
+    font-size: 20px;
+    color: rgba(250, 250, 250, 1);
+    font-weight: 600;
+
+    padding-top: 3px;
+
+    cursor: pointer;
+}
+
+.hero-social-media-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 350px;
+}
+
+.social-media-bg {
+    width: 64px;
+    height: 64px;
+    background-color: rgba(70, 72, 66, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.social-media-bg:hover {
+    background-color: rgba(212, 93, 8, 1);
 }
