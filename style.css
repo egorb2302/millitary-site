@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+html {
+    background-color: rgba(70, 72, 66, 1);
+}
+
+* {
+    font-family: "Wix Madefor Display", sans-serif;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+    padding:0;
+    margin:0;
+}
+
+header {
+    width: 100%;
+}
+
+
+a {
+    color: rgba(250, 250, 250, 1);
+    text-decoration: none;
+}
+
+.nav-bar {
+    width: 100%;
+    min-height: 106px;
+    height: 100%;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.nav-bar-options {
+    color: rgba(250, 250, 250, 1);
+    font-size: 24px;
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+.nav-bar-options:hover {
+    color: rgba(212, 93, 8, 1);
+}
+
+.nav-bar-options-container {
+    display: flex;
+    gap: 45px;
+}
+
+.nav-bar-buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    margin-left: 80px;
+}
+
+.call-pic {
+    margin-right: 30px;
+    width: 32px;
+    height: 32px;
+}
+
+.nav-bar-tgl-button {
+    width: 106px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+    border: 1px solid rgba(212, 93, 8, 1);
+
+    font-size: 20px;
+    color: rgba(212, 93, 8, 1);
+    font-weight: 600;
+
+    padding-top: 3px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.nav-bar-tgl-button:hover {
+    background-color: rgba(212, 93, 8, 1);
+    color: rgba(250, 250, 250, 1);
+}
+
+.nav-bar-iwant-button {
+    width: 194px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(212, 93, 8, 1);
+    border: none;
+
+    font-size: 20px;
+    color: rgba(250, 250, 250, 1);
+    font-weight: 600;
+
+    padding-top: 3px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.nav-bar-iwant-button:hover {
+    background-color: transparent;
+    border: 1px solid rgba(212, 93, 8, 1);
+    color: rgba(212, 93, 8, 1);
+}
+
+.hero-section {
+    min-height: 898px;
+    width: 100%;
+    background-image: url(./assets/soldier-hero.png);
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+.hero-container { 
+    display: flex;
+    gap: 300px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.hero-main-page {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-main-text {
+    color: rgba(250, 250, 250, 1);
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: -3%;
+}
+
+.hero-text {
+    color: rgba(250, 250, 250, 1);
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -3%;
+}
+
+.hero-main-button-container {
+    margin-top: 60px;
+}
+
+.hero-main-button {
+    height: 71px;
+    width: 274px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(212, 93, 8, 1);
+    border: none;
+
+    font-size: 20px;
+    color: rgba(250, 250, 250, 1);
+    font-weight: 600;
+
+    padding-top: 3px;
+
+    cursor: pointer;
+}
+
+.non-visible {
+    font-size: 100px;
+    margin-left: 220px;
+    
+    visibility: hidden;
+}
+
+.hero-bottom-container {
+    display: flex;
+    gap: 20px;
+    margin-left: 600px;
+}
+
+.hero-bottom-button {
+    height: 71px;
+    width: 274px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(212, 93, 8, 1);
+    border: none;
+
+    font-size: 20px;
+    color: rgba(250, 250, 250, 1);
+    font-weight: 600;
+
+    padding-top: 3px;
+
+    cursor: pointer;
+}
+
+.hero-social-media-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 350px;
+}
+
+.social-media-bg {
+    width: 64px;
+    height: 64px;
+    background-color: rgba(70, 72, 66, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.social-media-bg:hover {
+    background-color: rgba(212, 93, 8, 1);
+}
