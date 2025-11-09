@@ -524,7 +524,7 @@ a {
 }
 
 .vacancies-section {
-    margin-top: 150px;
+    margin-top: 170px;
     display: grid;
     justify-content: center;
 }
@@ -544,7 +544,7 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 800px;
+    width: 740px;
     background-image:url(./assets/vac-pic1.jpg) ;
     filter: brightness(50%);
     background-size: cover;
@@ -555,7 +555,7 @@ a {
 .vac-page1 {
     padding: 30px;
     height: 500px;
-    width: 800px;
+    width: 740px;
     
     position: relative;
 
@@ -571,10 +571,11 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 700px;
+    width: 740px;
     background-image:url(./assets/vac-pic1.jpg) ;
     filter: brightness(50%);
     background-size: cover;
+    background-position-x: -250px;
     z-index: -1;
 
 }
@@ -582,7 +583,7 @@ a {
 .vac-page1 {
     padding: 30px;
     height: 500px;
-    width: 700px;
+    width: 740px;
     
     position: relative;
 
@@ -598,17 +599,18 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 700px;
+    width: 740px;
     background-image:url(./assets/vac-pic2.jpg) ;
     filter: brightness(50%);
     background-size: cover;
+    background-position-x: -150px;
     z-index: -1;
 }
 
 .vac-page2 {
     padding: 30px;
     height: 500px;
-    width: 700px;
+    width: 740px;
     
     position: relative;
 
@@ -624,10 +626,11 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 700px;
+    width: 740px;
     background-image:url(./assets/vac-pic3.jpg) ;
     filter: brightness(50%);
     background-size: cover;
+    background-position-x: -250px;
     z-index: -1;
 
 }
@@ -635,7 +638,7 @@ a {
 .vac-page3 {
     padding: 30px;
     height: 500px;
-    width: 700px;
+    width: 740px;
     
     position: relative;
 
@@ -651,7 +654,7 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 700px;
+    width: 740px;
     background-image:url(./assets/vac-pic4.jpg) ;
     filter: brightness(50%);
     background-size: cover;
@@ -662,7 +665,7 @@ a {
 .vac-page4 {
     padding: 30px;
     height: 500px;
-    width: 700px;
+    width: 740px;
     
     position: relative;
 
@@ -678,7 +681,7 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 700px;
+    width: 740px;
     background-image:url(./assets/vac-pic5.jpg) ;
     filter: brightness(50%);
     background-size: cover;
@@ -689,7 +692,7 @@ a {
 .vac-page5 {
     padding: 30px;
     height: 500px;
-    width: 700px;
+    width: 740px;
     
     position: relative;
 
@@ -704,6 +707,8 @@ a {
     color: rgba(250, 250, 250, 1);
     font-size: 64px;
     font-weight: 600;
+
+    margin-bottom: 60px;
 }
 
 .vac-page-title {
