@@ -448,7 +448,7 @@ a {
 
     background-image: url(./assets/sec-soldier.jpg);
     background-size: cover;
-    filter: opacity(60%);
+    filter: brightness(50%);
     transform: scaleX(-1);
     z-index: -1;
 }
@@ -507,8 +507,8 @@ a {
 
     background-image: url(./assets/police-card.jpg);
     background-size: cover;
-    filter: opacity(60%);
-    transform: scaleX(-1);
+    filter: brightness(50%);
+    transform: scaleX(1);
     z-index: -1;
 }
 
@@ -521,4 +521,199 @@ a {
     gap: 20px;
     
     position: relative;
+}
+
+.vacancies-section {
+    margin-top: 150px;
+    display: grid;
+    justify-content: center;
+}
+
+.vacancies-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    gap: 30px;
+}
+
+.vac-page1::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    height: 500px;
+    width: 800px;
+    background-image:url(./assets/vac-pic1.jpg) ;
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -1;
+
+}
+
+.vac-page1 {
+    padding: 30px;
+    height: 500px;
+    width: 800px;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.vac-page1::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    height: 500px;
+    width: 700px;
+    background-image:url(./assets/vac-pic1.jpg) ;
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -1;
+
+}
+
+.vac-page1 {
+    padding: 30px;
+    height: 500px;
+    width: 700px;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.vac-page2::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    height: 500px;
+    width: 700px;
+    background-image:url(./assets/vac-pic2.jpg) ;
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -1;
+}
+
+.vac-page2 {
+    padding: 30px;
+    height: 500px;
+    width: 700px;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.vac-page3::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    height: 500px;
+    width: 700px;
+    background-image:url(./assets/vac-pic3.jpg) ;
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -1;
+
+}
+
+.vac-page3 {
+    padding: 30px;
+    height: 500px;
+    width: 700px;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.vac-page4::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    height: 500px;
+    width: 700px;
+    background-image:url(./assets/vac-pic4.jpg) ;
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -1;
+
+}
+
+.vac-page4 {
+    padding: 30px;
+    height: 500px;
+    width: 700px;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.vac-page5::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    height: 500px;
+    width: 700px;
+    background-image:url(./assets/vac-pic5.jpg) ;
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -1;
+
+}
+
+.vac-page5 {
+    padding: 30px;
+    height: 500px;
+    width: 700px;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    grid-area: 1 / 2 / 3 / 4 / 5 / 5;
+}
+
+.vac-title {
+    color: rgba(250, 250, 250, 1);
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.vac-page-title {
+    color: rgba(250, 250, 250, 1);
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.vac-page-text {
+    color: rgba(250, 250, 250, 1);
+    font-size: 20px;
+    font-weight: 400;
 }
