@@ -530,6 +530,8 @@ a {
 }
 
 .vacancies-container {
+    max-width: 1500px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -544,7 +546,7 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 740px;
+    width: 743px;
     background-image:url(./assets/vac-pic1.jpg) ;
     filter: brightness(50%);
     background-size: cover;
@@ -555,7 +557,7 @@ a {
 .vac-page1 {
     padding: 30px;
     height: 500px;
-    width: 740px;
+    width: 743px;
     
     position: relative;
 
@@ -571,7 +573,7 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 740px;
+    width: 745px;
     background-image:url(./assets/vac-pic1.jpg) ;
     filter: brightness(50%);
     background-size: cover;
@@ -583,13 +585,13 @@ a {
 .vac-page1 {
     padding: 30px;
     height: 500px;
-    width: 740px;
+    width: 745px;
     
     position: relative;
 
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 
 .vac-page2::before {
@@ -599,7 +601,7 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 740px;
+    width: 745px;
     background-image:url(./assets/vac-pic2.jpg) ;
     filter: brightness(50%);
     background-size: cover;
@@ -610,7 +612,7 @@ a {
 .vac-page2 {
     padding: 30px;
     height: 500px;
-    width: 740px;
+    width: 745px;
     
     position: relative;
 
@@ -626,7 +628,7 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 740px;
+    width: 745px;
     background-image:url(./assets/vac-pic3.jpg) ;
     filter: brightness(50%);
     background-size: cover;
@@ -638,7 +640,7 @@ a {
 .vac-page3 {
     padding: 30px;
     height: 500px;
-    width: 740px;
+    width: 745px;
     
     position: relative;
 
@@ -654,7 +656,7 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 740px;
+    width: 745px;
     background-image:url(./assets/vac-pic4.jpg) ;
     filter: brightness(50%);
     background-size: cover;
@@ -665,7 +667,7 @@ a {
 .vac-page4 {
     padding: 30px;
     height: 500px;
-    width: 740px;
+    width: 745px;
     
     position: relative;
 
@@ -681,26 +683,29 @@ a {
     width: 100%; height: 100%;
 
     height: 500px;
-    width: 740px;
+    
     background-image:url(./assets/vac-pic5.jpg) ;
     filter: brightness(50%);
     background-size: cover;
     z-index: -1;
 
+    grid-column: span 2;
 }
 
 .vac-page5 {
     padding: 30px;
     height: 500px;
-    width: 740px;
+    
+    width: 50%;
     
     position: relative;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    justify-self: center;
     gap: 30px;
 
-    grid-area: 1 / 2 / 3 / 4 / 5 / 5;
+    grid-column: span 2;
 }
 
 .vac-title {
@@ -721,4 +726,179 @@ a {
     color: rgba(250, 250, 250, 1);
     font-size: 20px;
     font-weight: 400;
+}
+
+.contract-section {
+    margin-top: 200px;
+    display: grid;
+    justify-content: center;
+}
+
+.contract-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+}
+
+.contract-page1::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    height: 500px;
+    width: 745px;
+    background-image:url(./assets/contact1.png) ;
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -1;
+}
+
+.contract-page1 {
+    padding: 30px;
+    height: 500px;
+    width: 745px;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contract-page2::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    height: 500px;
+    width: 745px;
+    background-image:url(./assets/contarct2.jpg) ;
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -1;
+
+    border: 1px solid #000000;
+}
+
+.contract-page2 {
+    padding: 30px;
+    height: 500px;
+    width: 745px;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contract-page3::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    height: 500px;
+    width: 745px;
+    background-image:url(./assets/contarct3.jpg) ;
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -1;
+}
+
+.contract-page3 {
+    padding: 30px;
+    height: 500px;
+    width: 745px;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contract-page4::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+
+    height: 500px;
+    width: 745px;
+    background-image:url(./assets/contract4.png) ;
+    filter: brightness(50%);
+    background-size: cover;
+    z-index: -1;
+}
+
+.contract-page4 {
+    padding: 30px;
+    height: 500px;
+    width: 745px;
+    
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contract-title {
+    width: 1000px;
+    margin-bottom: 50px;
+    color: rgba(250, 250, 250, 1);
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.contract-page-title {
+    color: rgba(250, 250, 250, 1);
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.contract-page-text {
+    color: rgba(250, 250, 250, 1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cta-section {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container::before {
+    background-image: url(./assets/signup-soldier.jpg);
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    max-width: 1500px;
+    height: 487px;
+
+    filter: opacity(70%);
+    background-size: cover;
+    z-index: -1;
+}
+
+.cta-container {
+    max-width: 1500px;
+    width: 100%;
+    height: 487px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    position: relative;
+}
+
+.signup-container {
+    background-color: rgba(250, 250, 250, 1);
 }
