@@ -2,6 +2,10 @@
 
 html {
     background-color: rgba(70, 72, 66, 1);
+
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 * {
@@ -10,6 +14,12 @@ html {
 
     padding:0;
     margin:0;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -42,13 +52,13 @@ input {
 }
 
 .nav-bar {
-    width: 100%;
+    margin: 0px 200px;
     min-height: 106px;
-    height: 100%;
+    height: auto;
 
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-bar-options {
@@ -65,6 +75,7 @@ input {
 
 .nav-bar-options-container {
     display: flex;
+    align-items: center;
     gap: 45px;
 }
 
@@ -402,7 +413,7 @@ input {
     font-weight: 600;
 
     height: 120px;
-    min-width: 1500px;
+    min-width: 1575px;
     width: 100%;
 
     background-color: transparent;
@@ -450,7 +461,7 @@ input {
 }
 
 .social-benefits_container {
-    max-width: 1500px;
+    max-width: 1575px;
     width: 100%;
     display: grid;
     grid-template-rows: repeat(2,2fr,1fr);
@@ -458,7 +469,7 @@ input {
 }
 
 .socbin-top-page::before {
-    max-width: 1520px;
+    max-width: 1575px;
     width: 100%;
 
     content: "";
@@ -517,7 +528,7 @@ input {
 }
 
 .socbin-bottom-page::before {
-    max-width: 1520px;
+    max-width: 1575px;
     width: 100%;
 
     content: "";
@@ -533,7 +544,7 @@ input {
 }
 
 .socbin-bottom-page {
-    min-width: 1520px;
+    min-width: 1575px;
     width: 100%;
     padding: 30px;
     
@@ -550,7 +561,7 @@ input {
 }
 
 .vacancies-container {
-    max-width: 1500px;
+    max-width: 1575px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -565,7 +576,7 @@ input {
     top: 0; left: 0;
     width: 100%; height: 100%;
 
-    height: 500px;
+    height:800px;
     width: 743px;
     background-image:url(./assets/vac-pic1.jpg) ;
     filter: brightness(50%);
@@ -576,7 +587,7 @@ input {
 
 .vac-page1 {
     padding: 30px;
-    height: 500px;
+    height:800px;
     width: 743px;
     
     position: relative;
@@ -592,7 +603,7 @@ input {
     top: 0; left: 0;
     width: 100%; height: 100%;
 
-    height: 500px;
+    height:800px;
     width: 745px;
     background-image:url(./assets/vac-pic1.jpg) ;
     filter: brightness(50%);
@@ -604,7 +615,7 @@ input {
 
 .vac-page1 {
     padding: 30px;
-    height: 500px;
+    height:800px;
     width: 745px;
     
     position: relative;
@@ -620,7 +631,7 @@ input {
     top: 0; left: 0;
     width: 100%; height: 100%;
 
-    height: 500px;
+    height:800px;
     width: 745px;
     background-image:url(./assets/vac-pic2.jpg) ;
     filter: brightness(50%);
@@ -631,7 +642,7 @@ input {
 
 .vac-page2 {
     padding: 30px;
-    height: 500px;
+    height:800px;
     width: 745px;
     
     position: relative;
@@ -647,7 +658,7 @@ input {
     top: 0; left: 0;
     width: 100%; height: 100%;
 
-    height: 500px;
+    height:800px;
     width: 745px;
     background-image:url(./assets/vac-pic3.jpg) ;
     filter: brightness(50%);
@@ -659,7 +670,7 @@ input {
 
 .vac-page3 {
     padding: 30px;
-    height: 500px;
+    height:800px;
     width: 745px;
     
     position: relative;
@@ -675,7 +686,7 @@ input {
     top: 0; left: 0;
     width: 100%; height: 100%;
 
-    height: 500px;
+    height:800px;
     width: 745px;
     background-image:url(./assets/vac-pic4.jpg) ;
     filter: brightness(50%);
@@ -686,7 +697,7 @@ input {
 
 .vac-page4 {
     padding: 30px;
-    height: 500px;
+    height:800px;
     width: 745px;
     
     position: relative;
@@ -702,7 +713,7 @@ input {
     top: 0; left: 0;
     width: 100%; height: 100%;
 
-    height: 500px;
+    height:800px;
     
     background-image:url(./assets/vac-pic5.jpg) ;
     filter: brightness(50%);
@@ -714,7 +725,7 @@ input {
 
 .vac-page5 {
     padding: 30px;
-    height: 500px;
+    height:800px;
     
     width: 50%;
     
@@ -767,7 +778,7 @@ input {
     top: 0; left: 0;
     width: 100%; height: 100%;
 
-    height: 500px;
+    height:800px;
     width: 745px;
     background-image:url(./assets/contact1.png) ;
     filter: brightness(50%);
@@ -777,7 +788,7 @@ input {
 
 .contract-page1 {
     padding: 30px;
-    height: 500px;
+    height:800px;
     width: 745px;
     
     position: relative;
@@ -793,7 +804,7 @@ input {
     top: 0; left: 0;
     width: 100%; height: 100%;
 
-    height: 500px;
+    height:800px;
     width: 745px;
     background-image:url(./assets/contarct2.jpg) ;
     filter: brightness(50%);
@@ -805,7 +816,7 @@ input {
 
 .contract-page2 {
     padding: 30px;
-    height: 500px;
+    height:800px;
     width: 745px;
     
     position: relative;
@@ -821,7 +832,7 @@ input {
     top: 0; left: 0;
     width: 100%; height: 100%;
 
-    height: 500px;
+    height:800px;
     width: 745px;
     background-image:url(./assets/contarct3.jpg) ;
     filter: brightness(50%);
@@ -831,7 +842,7 @@ input {
 
 .contract-page3 {
     padding: 30px;
-    height: 500px;
+    height:800px;
     width: 745px;
     
     position: relative;
@@ -847,7 +858,7 @@ input {
     top: 0; left: 0;
     width: 100%; height: 100%;
 
-    height: 500px;
+    height:800px;
     width: 745px;
     background-image:url(./assets/contract4.png) ;
     filter: brightness(50%);
@@ -857,7 +868,7 @@ input {
 
 .contract-page4 {
     padding: 30px;
-    height: 500px;
+    height:800px;
     width: 745px;
     
     position: relative;
@@ -899,17 +910,18 @@ input {
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    max-width: 1500px;
+    max-width: 1575px;
     height: 487px;
 
     filter: opacity(70%);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position-y: -80px;
     z-index: -1;
 }
 
 .cta-container {
-    max-width: 1500px;
+    max-width: 1575px;
     width: 100%;
     height: 487px;
 
@@ -1038,6 +1050,7 @@ input {
     background-image:url(./assets/recruits.png);
     filter: brightness(50%);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position-y: -370px;
     z-index: -1;
 }
@@ -1080,7 +1093,7 @@ input {
 }
 
 .ifyoufrom-container {
-    min-width: 1500px;
+    min-width: 1575px;
     width: 100%;
 
     display: grid;
@@ -1105,7 +1118,7 @@ input {
 
 .ifyoufrom-page1 {
     height: 258px;
-    max-width: 1500px;
+    max-width: 1575px;
     width: 100%;
 
     display: flex;
@@ -1134,7 +1147,7 @@ input {
 
 .ifyoufrom-page2 {
     height: 258px;
-    max-width: 1500px;
+    max-width: 1575px;
     width: 100%;
 
     padding: 30px;
@@ -1161,7 +1174,7 @@ input {
 
 .ifyoufrom-page3 {
     height: 258px;
-    max-width: 1500px;
+    max-width: 1575px;
     width: 100%;
 
     padding: 30px;
@@ -1206,6 +1219,7 @@ input {
     background-image:url(./assets/womoffer.png);
     filter: brightness(50%);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position-y: -280px;
     z-index: -1;
 }
@@ -1291,7 +1305,7 @@ input {
 }
 
 .qnda-conatainer {
-    max-width: 1500px;
+    max-width: 1575px;
     width: 100%;
 }
 
@@ -1304,7 +1318,7 @@ input {
 }
 
 .qnda-page {
-    max-width: 1500px;
+    max-width: 1575px;
     width: 100%;
     padding: 40px 0px;
 
@@ -1435,4 +1449,432 @@ input {
     font-weight: 500;
 
     margin-bottom: 10px;
+}
+
+@media (max-width: 1600px) {
+    .non-visible {
+        display: none;
+    }
+    .hero-social-media-container {
+        margin-left: 50px;
+    }
+    .hero-bottom-container {
+        gap: 80px;
+    }
+    .hero-section {
+        background-position-x: -200px;
+    }
+    .grid-page {
+        padding: 25px;
+    }
+    .grid-long-page {
+        padding: 25px;
+    }
+    .video-page-section {
+        background-position-x: -165px ;
+    }
+    
+}
+
+@media (max-width: 1440px) {
+    .nav-bar {
+        margin: 0px;
+    }
+    .nav-bar-options-container {
+        gap: 30px;
+    }
+    .nav-bar-buttons-container {
+        margin: 0px;
+    }
+    .hero-social-media-container {
+        margin: 0px;
+    }
+    .hero-bottom-container {
+        margin-left:0px;
+    }
+    .top-grid-section {
+        margin-top: 150px;
+    }
+    .top-grid-container {
+        margin: 0px 135px;
+    }
+    .video-page-section {
+        height: 800px;
+        background-position-x: 0px ;
+    }
+    .payout-page {
+        min-width: 1200px;
+    }
+    .socbin-top-page {
+        min-width: 1200px;
+    }
+    .socbin-bottom-page {
+        min-width: 1200px;
+    }
+    .vac-page1::before {
+        width:800px;
+        background-position-x:-550px;
+    }
+    .vac-page2::before {
+        width:800px;
+        background-position-x:-300px ;
+    }
+    .vac-page3::before {
+        width:800px;
+        background-position-x:-500px ;
+    }
+    .vac-page4::before {
+        width:800px;
+        background-position-x:-100px ;
+    }
+    .vac-page5::before {
+        width:800px;
+        background-position-x:-220px ;
+    }
+    .vac-page1 {
+        width:800px;
+    }
+    .vac-page2 {
+        width:800px;
+    }
+    .vac-page3 {
+        width:800px;
+    }
+    .vac-page4 {
+        width:800px;
+    }
+    .vac-page5 {
+        width:800px;
+    }
+    .contract-page1::before {
+        width:800px;
+    }
+    .contract-page2::before {
+        width:800px;
+        background-position-x: -150px ;
+    }
+    .contract-page3::before {
+        width:800px;
+    }
+    .contract-page4::before {
+        width:800px;
+    }
+    .contract-page1 {
+        width:800px;
+    }
+    .contract-page2 {
+        width:800px;
+    }
+    .contract-page3 {
+        width:800px;
+    }
+    .contract-page4 {
+        width:800px;
+    }
+    .cta-container {
+        padding: 30px 130px;
+    }
+    .ifyoufrom-section {
+        margin-top: 100px;
+    }
+    .ifyoufrom-container {
+        max-width: 1200px;
+        min-width: 0px;
+    }
+    .ifyoufrom-page1::before {
+        background-position-y: -150px ;
+    }
+    .ifyoufrom-page2::before {
+        background-position-y: -300px ;
+    }
+    .ifyoufrom-page3::before {
+        background-position-y: -350px ;
+    }
+    .ifyoufrom-page1 {
+        min-width: 1200px;
+        padding: 25px;
+    }
+    .ifyoufrom-page2 {
+        min-width: 1200px;
+        padding: 25px;
+    }
+    .ifyoufrom-page3 {
+        min-width: 1200px;
+        padding: 25px;
+    }
+    .qnda-page {
+        max-width: 1200px;
+    }
+    .qnda-section {
+        margin-top: 100px;
+    }
+    .footer-sec {
+        gap: 20px;
+    }
+}
+@media (max-width: 1024px) {
+    .nav-bar-options-container {
+        display: none;
+    }
+    .nav-bar {
+        justify-content: flex-end;
+        margin: 0px 50px;
+    }
+    .hero-section {
+        min-height: 0px;
+    }
+    .hero-main-text {
+        font-size: 80px;
+        font-weight: 600;
+    }
+    .hero-text {
+        font-size: 52px;
+    }
+    .hero-main-button-container {
+        display: none;
+    }
+    .hero-main-button {
+        display: none;
+    }
+    .hero-section {
+        background-position-x: -100px ;
+    }
+    .hero-social-media-container {
+        display: none;
+    }
+    .hero-bottom-container {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .hero-bottom-button {
+        width: 400px;
+    }
+    .top-grid-section {
+        margin-top: 70px;
+    }
+    .top-grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .grid-page {
+        max-width: 800px;
+        width: 100%;
+        height: 200px;
+    }
+    .grid-long-page {
+        grid-area: auto;
+        min-height: 200px;
+    }
+    .video-page-section {
+        background-position-x: -250px;
+    }
+    .payouts-section {
+        height: auto;
+    }
+    .payout-page {
+        min-width: 800px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .payout-page-text {
+        width: 700px;
+    }
+    .social-benefits-section {
+        margin-top: 100px;
+    }
+    .social-benefits_container {
+        width: 800px;
+    }
+    .socbin-bottom-page::before {
+        max-width: 800px;
+    }
+    .socbin-top-page {
+        min-width: 800px;
+    }
+    .socbin-bottom-page::before {
+        max-width: 800px;
+    }
+    .socbin-bottom-page {
+        min-width: 800px;
+    }
+    .soc-ben-title {
+        width: 300px;
+    }
+    .vacancies-section {
+        margin-top: 100px;
+    }
+    .vacancies-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .vac-page1::before {
+        width: 800px;
+        background-position-x:-550px;
+    }
+    .vac-page2::before {
+        width: 800px;
+        background-position-x:-300px ;
+    }
+    .vac-page3::before {
+        width: 800px;
+        background-position-x:-500px ;
+    }
+    .vac-page4::before {
+        width: 800px;
+        background-position-x:-100px ;
+    }
+    .vac-page5::before {
+        width: 800px;
+        background-position-x:-220px ;
+    }
+    .vac-page1 {
+        height: fit-content;
+        width: 800px;
+    }
+    .vac-page2 {
+        width: 800px;
+    }
+    .vac-page3 {
+        width: 800px;
+    }
+    .vac-page4 {
+        width: 800px;
+    }
+    .vac-page5 {
+        grid-column: auto;
+        width: 800px;
+    }
+    .vac-title {
+        font-size: 48px;
+    }
+    .contract-page1::before {
+        width:800px;
+    }
+    .contract-page2::before {
+        width:800px;
+        background-position-x: -150px ;
+    }
+    .contract-page3::before {
+        width:800px;
+    }
+    .contract-page4::before {
+        width:800px;
+    }
+    .contract-page1 {
+        width:800px;
+    }
+    .contract-page2 {
+        width:800px;
+    }
+    .contract-page3 {
+        width:800px;
+    }
+    .contract-page4 {
+        width: 800px;
+    }
+    .contract-title {
+        width: 600px;
+        font-size: 48px;
+    }
+    .contract-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .contract-section {
+        margin-top: 100px;
+    }
+    .signup-title {
+        font-size: 48px;
+        width: 600px;
+        text-align: center;
+    }
+    .cta-container::before {
+        height: 700px;
+    }
+    .signup-container {
+        width: 800px;
+    }
+    .cta-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .check-and-text {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .wannabein-section::before {
+        height: 900px;
+    }
+    .wannabein-section {
+        margin-top: 100px;
+    }
+    .ifyoufrom-page1::before {
+        background-position-y: -150px ;
+    }
+    .ifyoufrom-page2::before {
+        background-position-y: -150px ;
+    }
+    .ifyoufrom-page3::before {
+        background-position-y: -220px ;
+    }
+    .ifyoufrom-page1 {
+        min-width: 800px;
+        padding: 25px;
+    }
+    .ifyoufrom-page2 {
+        min-width: 800px;
+        padding: 25px;
+    }
+    .ifyoufrom-page3 {
+        min-width: 800px;
+        padding: 25px;
+    }
+    .ifyoufrom-title {
+        width: 800px;
+        margin-bottom: 40px;
+    }
+    .womoffer-section::before {
+        height: 1000px;
+    }
+    .womoffer-container {
+        width: 800px;
+        align-items: center;
+    }
+    .womoffer-title {
+        font-size: 48px;
+    }
+    .womoffer-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .womoffer-button1 {
+        min-width: 800px;
+        width: 100%;
+    }
+    .womoffer-button2 {
+        margin-left: 0px;
+        min-width: 800px;
+        width: 100%;
+    }
+    .qnda-page {
+        max-width: 800px;
+    }
+    .qnda-section {
+        margin-top: 100px;
+    }
+    .qnda-title {
+        font-size: 48px;
+        width: 600px;
+        margin-bottom: 40px;
+    }
+    .footer-sec {
+        height: 700px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
