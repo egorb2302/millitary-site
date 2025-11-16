@@ -425,3 +425,543 @@
         flex-wrap: wrap;
     }
 }
+@media (max-width: 768px) {
+    .hero-container {
+        margin: 80px 20px;
+    }
+    .grid-page:hover {
+        padding: 40px;
+    }
+    .grid-page {
+        min-height: 250px;
+    }
+    .grid-long-page {
+        min-height: 250px;
+        padding: 20px;
+    }
+    .video-page-section {
+        background-position-x: -370px ;
+    }
+    .additional-payout {
+        width: 500px;
+    }
+    .payout-page {
+        height: 200px;
+        min-width: 600px;
+    }
+    .payout-page:hover {
+        height: 200px;
+        padding: 0px 5px;
+    }
+    .payout-page-text {
+        width: 500px;
+    }
+    .social-benefits_container {
+        max-width: 600px;
+    }
+    .socbin-top-page::before {
+        max-width: 600px;
+    }
+    .socbin-top-page {
+        min-width: 600px;
+    }
+    .socbin-bottom-page::before {
+        max-width: 600px;
+    }
+    .socbin-bottom-page {
+        min-width: 600px;
+    }
+    .socbio-text {
+        font-size: 20px;
+    }
+    .vac-page1::before {
+        height: 500px;
+        width: 600px;
+        background-position-x:-550px;
+    }
+    .vac-page2::before {
+        height: 500px;
+        width: 600px;
+        background-position-x:-300px ;
+    }
+    .vac-page3::before {
+        height: 500px;
+        width: 600px;
+        background-position-x:-500px ;
+    }
+    .vac-page4::before {
+        height: 500px;
+        width: 600px;
+        background-position-x:-100px ;
+    }
+    .vac-page5::before {
+        height: 500px;
+        width: 600px;
+        background-position-x:-220px ;
+    }
+    .vac-page1 {
+        height: 500px;
+        width: 600px;
+    }
+    .vac-page2 {
+        height: 500px;
+        width: 600px;
+    }
+    .vac-page3 {
+        height: 500px;
+        width: 600px;
+    }
+    .vac-page4 {
+        height: 500px;
+        width: 600px;
+    }
+    .vac-page5 {
+        height: 500px;
+        grid-column: auto;
+        width: 600px;
+    }
+    .vac-page-title {
+        font-size: 32px;
+    }
+    .vac-page-text {
+        font-size: 18px;
+    }
+    .contract-page1::before {
+        height: 400px;
+        width:600px;
+    }
+    .contract-page2::before {
+        height: 400px;
+        width:600px;
+        background-position-x: -150px ;
+    }
+    .contract-page3::before {
+        height: 400px;
+        width:600px;
+    }
+    .contract-page4::before {
+        height: 400px;
+        width:600px;
+    }
+    .contract-page1 {
+        height: 400px;
+        width:600px;
+    }
+    .contract-page2 {
+        height: 400px;
+        width:600px;
+    }
+    .contract-page3 {
+        height: 400px;
+        width: 600px;
+    }
+    .contract-page4 {
+        height: 400px;
+        width: 600px;
+    }
+    .contract-page-title {
+        font-size: 32px;
+    }
+    .cta-section {
+        margin-top: 100px;
+    }
+    .signup-container {
+        width: 600px;
+    }
+    .wannabein-title {
+        font-size: 32px;
+    }
+    .wannabein-text {
+        font-size: 18px;
+        width: 400px;
+    }
+    .wannabein-container {
+        max-width: 600px;
+    }
+    .ifyoufrom-title {
+        font-size: 48px;
+        width: 400px;
+    }
+    .ifyoufrom-page-title {
+        font-size: 32px;
+    }
+    .ifyoufrom-text {
+        font-size: 18px;
+        width: 400px;
+    }
+    .ifyoufrom-page1::before {
+        height: 300px;
+        min-width: 600px;
+        background-position-y: -30px ;
+    }
+    .ifyoufrom-page2::before {
+        height: 300px;
+        min-width: 600px;
+        background-position-y: -30px ;
+    }
+    .ifyoufrom-page3::before {
+        height: 300px;
+        min-width: 600px;
+        background-position-y: -50px ;
+    }
+    .ifyoufrom-page1 {
+        height: 300px;
+        min-width: 600px;
+        padding: 25px;
+    }
+    .ifyoufrom-page2 {
+        height: 300px;
+        min-width: 600px;
+        padding: 25px;
+    }
+    .ifyoufrom-page3 {
+        height: 300px;
+        min-width: 600px;
+        padding: 25px;
+    }
+    .ifyoufrom-container {
+        max-width: 600px;
+    }
+    .womoffer-title {
+        width: 600px;
+    }
+    .womoffer-text {
+        width: 600px;
+    }
+    .womoffer-button1 {
+        min-width: 600px;
+    }
+    .womoffer-button2 {
+        min-width: 600px;
+    }
+    .qnda-title {
+       width: 400px; 
+    }
+    .qnda-page-title {
+        font-size: 32px;
+    }
+    .qnda-page {
+        max-width: 600px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+    .footer-area {
+        font-size: 28px;
+        width: 250px;
+    }
+    .area-container {
+        width: 250px;
+    }
+    .footer-sec {
+        gap: 40px;
+    }
+}
+@media (max-width: 375px) {
+    .call-pic {
+        display: none;
+    }
+    .nav-bar-tgl-button {
+        display: none;
+    }
+    .nav-bar-iwant-button {
+        font-size: 16px;
+        width: 160px;
+    }
+    .nav-bar {
+        margin: 0px 20px;
+    }
+    .hero-main-text {
+        width: 280px;
+        font-size: 48px;
+    }
+    .hero-text {
+        width: 280px;
+        font-size: 28px;
+    }
+    .hero-section {
+        height: 760px;
+        justify-content: flex-end;
+        padding: 0px 30px;
+        background-position-x: -950px ;
+        background-size:cover;
+    }
+    .hero-bottom-button {
+        width: 327px;
+        font-size: 18px;
+    }
+    .hero-container {
+        margin: 20px 0px;
+    }
+    .price {
+        font-size: 28px;
+    }
+    .grid-page-text {
+        font-size: 16px;
+    }
+    .grid-page-min-text {
+        font-size: 10px;
+    }
+    .grid-page {
+        height: 125px;
+        min-height: auto;
+        min-width: 327px;
+        padding: 10px;
+    }
+    .grid-page:hover {
+        height: 125px;
+        min-width: 327px;
+        padding: 11px;
+    }
+    .grid-long-page:hover {
+        height: 125px;
+        min-height: 0px;
+        padding: 11px;
+    }
+    .grid-long-page {
+        height: 125px;
+        min-height: 0px;
+        min-width: 327px;
+        padding: 10px;
+    }
+    .video-page-section {
+        background-position-x: -550px ;
+    }
+    .additional-payout {
+        font-size: 32px;
+        width: 300px;
+    }
+    .payout-page {
+        height: 120px;
+        min-width: 327px;
+    }
+    .payout-page:hover {
+        height: 120px;
+        padding: 0px 5px;
+    }
+    .payout-page-text {
+        font-size: 20px;
+        width: 327px;
+    }
+    .payout-page-price {
+        font-size: 32px;
+    }
+    .soc-ben-title {
+        font-size: 32px;
+        width: 327px;
+    }
+    .social-benefits_container {
+        max-width: 327px;
+    }
+    .socbin-top-page::before {
+        max-width: 327px;
+    }
+    .socbin-top-page {
+        min-width: 327px;
+        padding: 15px;
+    }
+    .socbin-bottom-page::before {
+        max-width: 327px;
+    }
+    .socbin-bottom-page {
+        padding: 15px;
+        min-width: 327px;
+    }
+    .socbio-text {
+        font-size: 18px;
+    }
+    .vac-title {
+        font-size: 32px;
+    }
+    .vac-page1::before {
+        height: 550px;
+        width: 327px;
+        background-position-x:-550px;
+    }
+    .vac-page2::before {
+        height: 550px;
+        width: 327px;
+        background-position-x:-300px ;
+    }
+    .vac-page3::before {
+        height: 550px;
+        width: 327px;
+        background-position-x:-500px ;
+    }
+    .vac-page4::before {
+        height: 550px;
+        width: 327px;
+        background-position-x:-100px ;
+    }
+    .vac-page5::before {
+        height: 550px;
+        width: 327px;
+        background-position-x:-220px ;
+    }
+    .vac-page1 {
+        height: 550px;
+        width: 327px;
+        padding: 15px;
+    }
+    .vac-page2 {
+        height: 550px;
+        width: 327px;
+        padding: 15px;
+    }
+    .vac-page3 {
+        height: 550px;
+        width: 327px;
+        padding: 15px;
+    }
+    .vac-page4 {
+        height: 550px;
+        width: 327px;
+        padding: 15px;
+    }
+    .vac-page5 {
+        height: 550px;
+        grid-column: auto;
+        width: 327px;
+        padding: 15px;
+    }
+    .vac-page-title {
+        font-size: 30px;
+    }
+    .contract-page1::before {
+        height: 400px;
+        width:327px;
+    }
+    .contract-page2::before {
+        height: 400px;
+        width:327px;
+        background-position-x: -150px ;
+    }
+    .contract-page3::before {
+        height: 400px;
+        width:327px;
+    }
+    .contract-page4::before {
+        height: 400px;
+        width:327px;
+    }
+    .contract-page1 {
+        height: 400px;
+        width:327px;
+    }
+    .contract-page2 {
+        height: 400px;
+        width:327px;
+    }
+    .contract-page3 {
+        height: 400px;
+        width: 327px;
+    }
+    .contract-page4 {
+        height: 400px;
+        width: 327px;
+    }
+    .contract-page-title {
+        font-size: 30px;
+    }
+    .contract-title {
+        font-size: 32px;
+        width: 327px;
+    }
+    .signup-title {
+        font-size: 32px;
+        width: 300px;
+    }
+    .signup-container {
+        width: 327px;
+    }
+    .wannabein-section::before {
+        height: 327px;
+        background-size: cover;
+        background-position-y: 0px;
+    }
+    .wannabein-section {
+        height: 326px;
+        padding: 20px;
+    }
+    .wannabein-title {
+        font-size: 30px;
+    }
+    .wannabein-text {
+        width: 327px;
+    }
+    .ifyoufrom-title {
+        font-size: 32px;
+        width: 327px;
+    }
+    .ifyoufrom-page-title {
+        font-size: 30px;
+    }
+    .ifyoufrom-text {
+        font-size: 16px;
+        width: 280px;
+    }
+    .ifyoufrom-page1::before {
+        height: 330px;
+        min-width: 327px;
+        background-position-y: -30px ;
+    }
+    .ifyoufrom-page2::before {
+        height: 330px;
+        min-width: 327px;
+        background-position-y: -30px ;
+    }
+    .ifyoufrom-page3::before {
+        height: 330px;
+        min-width: 327px;
+        background-position-y: -50px ;
+    }
+    .ifyoufrom-page1 {
+        height: 300px;
+        min-width: 327px;
+        padding: 25px;
+    }
+    .ifyoufrom-page2 {
+        height: 300px;
+        min-width: 327px;
+        padding: 25px;
+    }
+    .ifyoufrom-page3 {
+        height: 300px;
+        min-width: 327px;
+        padding: 25px;
+    }
+    .ifyoufrom-container {
+        max-width: 327px;
+    }
+    .womoffer-title {
+        font-size: 32px;
+        width: 327px;
+    }
+    .womoffer-text {
+        font-size: 18px;
+        width: 327px;
+    }
+    .womoffer-button1 {
+        font-size: 20px;
+        min-width: 327px;
+    }
+    .womoffer-button2 {
+        font-size: 20px;
+        min-width: 327px;
+    }
+    .qnda-title {
+        font-size: 32px;
+        width: 327px; 
+    }
+    .qnda-page-title {
+        font-size: 22px;
+    }
+    .qnda-page {
+        max-width: 327px;
+    }
+    .footer-sec {
+        justify-content: center;
+        align-items: start;
+        margin: 0px 90px;
+    }
+}
